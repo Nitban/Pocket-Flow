@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="896dp"
+  android:background="@drawable/drawable_shape">
+
+  <ImageView
+      android:id="@+id/container_rectangle1"
+      android:layout_width="414dp"
+      android:layout_height="896dp"
+      android:layout_gravity="top|left"
+      android:background="#8AB4CC"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_rectangle1" />
+  
+  <ImageView
+    android:id="@+id/container_rectangle2"
+    android:layout_width="414dp"
+    android:layout_height="851dp"
+    android:layout_marginTop="128dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_rectangle2" />
+  
+  <ImageView
+    android:id="@+id/container_rectangle3"
+    android:layout_width="278dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="758dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_rectangle3"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_registrar"
+    android:layout_width="80dp"
+    android:layout_height="27dp"
+    android:layout_marginLeft="164dp"
+    android:layout_marginTop="776dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text=" Registrar"
+    android:textColor="#FFFFFFFF"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_crear_cuenta"
+    android:layout_width="wrap_content"
+    android:layout_height="49dp"
+    android:layout_marginLeft="81dp"
+    android:layout_marginTop="156.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Crear cuenta"
+    android:textColor="#FF1B263A"
+    android:textSize="40dp" />
+  
+  <ImageView
+    android:id="@+id/container_arrow6"
+    android:layout_width="24dp"
+    android:layout_height="0dp"
+    android:layout_marginLeft="37dp"
+    android:layout_marginTop="47dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_arrow6" />
+  
+  <TextView
+    android:id="@+id/text_nombre"
+    android:layout_width="wrap_content"
+    android:layout_height="18dp"
+    android:layout_marginLeft="63dp"
+    android:layout_marginTop="237.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="NOMBRE"
+    android:textColor="#FF1B263A"
+    android:textSize="14dp" />
+  
+  <ImageView
+    android:id="@+id/container_rectangle8"
+    android:layout_width="278dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="262dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_rectangle8"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_contrasena"
+    android:layout_width="wrap_content"
+    android:layout_height="18dp"
+    android:layout_marginLeft="63dp"
+    android:layout_marginTop="421.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="CONTRASEÑA"
+    android:textColor="#FF1B263A"
+    android:textSize="14dp" />
+  
+  <ImageView
+    android:id="@+id/container_rectangle10"
+    android:layout_width="278dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="446dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_rectangle10"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_confirmar_contrasena"
+    android:layout_width="wrap_content"
+    android:layout_height="18dp"
+    android:layout_marginLeft="66dp"
+    android:layout_marginTop="513.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="CONFIRMAR CONTRASEÑA"
+    android:textColor="#FF1B263A"
+    android:textSize="14dp" />
+  
+  <ImageView
+    android:id="@+id/container_rectangle12"
+    android:layout_width="278dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="73dp"
+    android:layout_marginTop="538dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_rectangle12"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_ana_marmolejo"
+    android:layout_width="154dp"
+    android:layout_height="21dp"
+    android:layout_marginLeft="88dp"
+    android:layout_marginTop="278dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Ana Marmolejo"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_correo"
+    android:layout_width="wrap_content"
+    android:layout_height="18dp"
+    android:layout_marginLeft="63dp"
+    android:layout_marginTop="329.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="CORREO"
+    android:textColor="#FF1B263A"
+    android:textSize="14dp" />
+  
+  <ImageView
+    android:id="@+id/container_rectangle15"
+    android:layout_width="278dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="354dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_rectangle15"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_correo_electronico"
+    android:layout_width="241dp"
+    android:layout_height="21dp"
+    android:layout_marginLeft="88dp"
+    android:layout_marginTop="370dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="anamarmolejo@hotmail.com"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_oculto17"
+    android:layout_width="154dp"
+    android:layout_height="21dp"
+    android:layout_marginLeft="93dp"
+    android:layout_marginTop="554dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="******"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_fecha_nacimiento"
+    android:layout_width="wrap_content"
+    android:layout_height="18dp"
+    android:layout_marginLeft="63dp"
+    android:layout_marginTop="605.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="FECHA DE NACIMIENTO"
+    android:textColor="#FF1B263A"
+    android:textSize="14dp" />
+  
+  <ImageView
+    android:id="@+id/container_rectangle19"
+    android:layout_width="278dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="630dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_rectangle19"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_fecha_marzo"
+    android:layout_width="154dp"
+    android:layout_height="21dp"
+    android:layout_marginLeft="90dp"
+    android:layout_marginTop="646dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="05 de Marzo"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_oculto21"
+    android:layout_width="154dp"
+    android:layout_height="21dp"
+    android:layout_marginLeft="93dp"
+    android:layout_marginTop="461dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="******"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+</FrameLayout>
