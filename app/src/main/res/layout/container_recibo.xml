@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_recibo"
+  android:layout_width="match_parent"
+  android:layout_height="896dp"
+  android:background="@drawable/container_recibo">
+  
+  <ImageView
+    android:id="@+id/img_rectangle1"
+    android:layout_width="414dp"
+    android:layout_height="896dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_rectangle1" />
+  
+  <ImageView
+    android:id="@+id/img_rectangle2"
+    android:layout_width="433dp"
+    android:layout_height="896dp"
+    android:layout_marginTop="-1dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside" />
+  
+  <FrameLayout
+    android:id="@+id/container_frame"
+    android:layout_width="367dp"
+    android:layout_height="598dp"
+    android:layout_marginLeft="23dp"
+    android:layout_marginTop="109dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_frame">
+    
+    <TextView
+      android:id="@+id/txt_large_eggs"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="48dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Large Eggs                           $ 0.99"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_milk"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="86dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Milk                                       $ 1.15"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_cottage_cheese"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="124dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Cottage Cheese                  $ 0.59"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_nature_yogurt"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="162dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Nature Yogurt                      $ 0.70"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_cherry_tomatoes"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="200dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Cherry Tomatoes 1lb           $ 1.29"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_bananas"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="238dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Bananas 1lb                         $ 0.77"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_aubergine"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="276dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Aubergine                            $ 1.50"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_cheese_crackers"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="314dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Cheese Crackers                 $ 2.19"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_chocolate_cookies"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="352dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Chocolate Cookies              $ 1.82"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_canned_tuna"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="390dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Canned Tuna 12pk               $ 5.95"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_chiken_breast"
+      android:layout_width="wrap_content"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="428dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Chiken Breast                       $ 2.46"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_toilet_paper"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="466dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Toilet Paper                          $ 4.98"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/txt_baby_wipes"
+      android:layout_width="323dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="504dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Baby Wipes                          $ 1.59"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <ImageView
+      android:id="@+id/img_rectangle3"
+      android:layout_width="181dp"
+      android:layout_height="38dp"
+      android:layout_marginLeft="180dp"
+      android:layout_marginTop="552dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/img_rectangle3"
+      android:scaleType="centerInside" />
+    
+    <TextView
+      android:id="@+id/txt_total"
+      android:layout_width="wrap_content"
+      android:layout_height="25dp"
+      android:layout_marginLeft="204dp"
+      android:layout_marginTop="558.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="TOTAL $25.97"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <FrameLayout
+      android:id="@+id/container_frame2"
+      android:layout_width="164dp"
+      android:layout_height="41dp"
+      android:layout_marginLeft="242dp"
+      android:layout_marginTop="-7dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/container_frame2">
+      
+      <TextView
+        android:id="@+id/txt_editar"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Editar"
+        android:textColor="#FF10264E"
+        android:textSize="16dp" />
+    </FrameLayout>
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/img_image1"
+    android:layout_width="47dp"
+    android:layout_height="47dp"
+    android:layout_marginLeft="337dp"
+    android:layout_marginTop="769dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/txt_repetir"
+    android:layout_width="wrap_content"
+    android:layout_height="27dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="31dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Repetir"
+    android:textColor="#FFFFFFFF"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/txt_cancelar"
+    android:layout_width="107dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginTop="784dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:includeFontPadding="false"
+    android:lineHeight="24.2dp"
+    android:text="Cancelar"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/txt_tu_recibo"
+    android:layout_width="342dp"
+    android:layout_height="46dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginTop="86dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:includeFontPadding="false"
+    android:lineHeight="24.2dp"
+    android:text="Tu Recibo:"
+    android:textColor="#FF1B263A"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/txt_registrar"
+    android:layout_width="99dp"
+    android:layout_height="27dp"
+    android:layout_marginLeft="248dp"
+    android:layout_marginTop="784dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text=" Registrar"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/img_image2"
+    android:layout_width="44dp"
+    android:layout_height="44dp"
+    android:layout_marginLeft="334dp"
+    android:layout_marginTop="42dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_image2" />
+</FrameLayout>

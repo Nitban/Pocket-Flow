@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_rewards"
+  android:layout_width="match_parent"
+  android:layout_height="896dp"
+  android:background="@drawable/container_rewards">
+  
+  <ImageView
+    android:id="@+id/img_arrow"
+    android:layout_width="40dp"
+    android:layout_height="0dp"
+    android:layout_marginLeft="26dp"
+    android:layout_marginTop="51dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_arrow" />
+
+  <ImageView
+      android:id="@+id/img_rectangle"
+      android:layout_width="414dp"
+      android:layout_height="896dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_menu_rectangle2" />
+  
+  <TextView
+    android:id="@+id/txt_no_unnecessary_weekend_expenses"
+    android:layout_width="296dp"
+    android:layout_height="17dp"
+    android:layout_marginLeft="34dp"
+    android:layout_marginTop="646dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="No gastos innecesarios de mi fin de semana "
+    android:textColor="#FFF6FCFF"
+    android:textSize="13dp" />
+  
+  <TextView
+    android:id="@+id/txt_no_online_shopping_days"
+    android:layout_width="296dp"
+    android:layout_height="17dp"
+    android:layout_marginLeft="44dp"
+    android:layout_marginTop="686dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="No comprar en línea en 15 días"
+    android:textColor="#FFF6FCFF"
+    android:textSize="13dp" />
+  
+  <TextView
+    android:id="@+id/txt_use_public_transport"
+    android:layout_width="296dp"
+    android:layout_height="17dp"
+    android:layout_marginLeft="44dp"
+    android:layout_marginTop="726dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Usar transporte público y no uber"
+    android:textColor="#FFF6FCFF"
+    android:textSize="13dp" />
+  
+  <TextView
+    android:id="@+id/txt_completion_percentage"
+    android:layout_width="249dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="74dp"
+    android:layout_marginTop="514dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|top"
+    android:includeFontPadding="false"
+    android:lineHeight="29.05dp"
+    android:text="40% Completo"
+    android:textColor="#FFFFFFFF"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:id="@+id/img_ellipse"
+    android:layout_width="273dp"
+    android:layout_height="281dp"
+    android:layout_marginLeft="68dp"
+    android:layout_marginTop="219dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/img_ellipse"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/img_union"
+    android:layout_width="257dp"
+    android:layout_height="80dp"
+    android:layout_marginLeft="83dp"
+    android:layout_marginTop="344dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_union" />
+  
+  <ImageView
+    android:id="@+id/img_ellipse1"
+    android:layout_width="273dp"
+    android:layout_height="196dp"
+    android:layout_marginLeft="68dp"
+    android:layout_marginTop="219dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_ellipse1" />
+  
+  <ImageView
+    android:id="@+id/img_rectangle1"
+    android:layout_width="278.56dp"
+    android:layout_height="133.49dp"
+    android:layout_marginLeft="69dp"
+    android:layout_marginTop="308dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_rectangle1" />
+  
+  <ImageView
+    android:id="@+id/img_rectangle2"
+    android:layout_width="414dp"
+    android:layout_height="193dp"
+    android:layout_marginTop="821dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_rectangle2" />
+  
+  <ImageView
+    android:id="@+id/img_carbon_footprint"
+    android:layout_width="45dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="268dp"
+    android:layout_marginTop="824dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_carbon_footprint" />
+  
+  <ImageView
+    android:id="@+id/img_ellipse2"
+    android:layout_width="74dp"
+    android:layout_height="71dp"
+    android:layout_marginLeft="170dp"
+    android:layout_marginTop="808dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/img_ellipse2"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/img_camera"
+    android:layout_width="42dp"
+    android:layout_height="42dp"
+    android:layout_marginLeft="186dp"
+    android:layout_marginTop="821dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_camera" />
+  
+  <ImageView
+    android:id="@+id/img_poor"
+    android:layout_width="49dp"
+    android:layout_height="49dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="824dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_poor" />
+  
+  <ImageView
+    android:id="@+id/img_bar_chart"
+    android:layout_width="52dp"
+    android:layout_height="52dp"
+    android:layout_marginLeft="87dp"
+    android:layout_marginTop="821dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_bar_chart" />
+  
+  <ImageView
+    android:id="@+id/img_line_chart"
+    android:layout_width="49dp"
+    android:layout_height="49dp"
+    android:layout_marginLeft="340dp"
+    android:layout_marginTop="822dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_line_chart" />
+  
+  <ImageView
+    android:id="@+id/img_rectangle3"
+    android:layout_width="163dp"
+    android:layout_height="29dp"
+    android:layout_marginLeft="123dp"
+    android:layout_marginTop="170dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/img_rectangle3"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/txt_monthly"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="166dp"
+    android:layout_marginTop="174dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Mensual"
+    android:textColor="#FFFFFFFF"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/img_image"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_marginLeft="246dp"
+    android:layout_marginTop="170dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_image" />
+  
+  <ImageView
+    android:id="@+id/img_arrow1"
+    android:layout_width="24dp"
+    android:layout_height="0dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="64dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_arrow1" />
+  
+  <TextView
+    android:id="@+id/txt_profile"
+    android:layout_width="60dp"
+    android:layout_height="27dp"
+    android:layout_marginLeft="53dp"
+    android:layout_marginTop="52dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Perfil"
+    android:textColor="#FFFFFFFF"
+    android:textSize="18dp" />
+  
+  <ImageView
+    android:id="@+id/container_line"
+    android:layout_width="323dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="42dp"
+    android:layout_marginTop="634dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line" />
+  
+  <ImageView
+    android:id="@+id/container_line1"
+    android:layout_width="323dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="42dp"
+    android:layout_marginTop="674dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line1" />
+  
+  <ImageView
+    android:id="@+id/container_line2"
+    android:layout_width="323dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="42dp"
+    android:layout_marginTop="714dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line2" />
+  
+  <ImageView
+    android:id="@+id/container_line3"
+    android:layout_width="323dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="42dp"
+    android:layout_marginTop="754dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line3" />
+  
+  <ImageView
+    android:id="@+id/img_image1"
+    android:layout_width="34dp"
+    android:layout_height="34dp"
+    android:layout_marginLeft="369dp"
+    android:layout_marginTop="638dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_image1" />
+  
+  <ImageView
+    android:id="@+id/img_image2"
+    android:layout_width="34dp"
+    android:layout_height="34dp"
+    android:layout_marginLeft="369dp"
+    android:layout_marginTop="681dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_image2" />
+  
+  <ImageView
+    android:id="@+id/img_image3"
+    android:layout_width="34dp"
+    android:layout_height="34dp"
+    android:layout_marginLeft="369dp"
+    android:layout_marginTop="724dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_image3" />
+  
+  <TextView
+    android:id="@+id/txt_last_completed_goals"
+    android:layout_width="wrap_content"
+    android:layout_height="14dp"
+    android:layout_marginLeft="42dp"
+    android:layout_marginTop="613dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="ÚLTIMOS OBJETIVOS REALIZADOS"
+    android:textColor="#FF1B263A"
+    android:textSize="10dp" />
+  
+  <ImageView
+    android:id="@+id/img_image4"
+    android:layout_width="191dp"
+    android:layout_height="191dp"
+    android:layout_marginLeft="109dp"
+    android:layout_marginTop="271dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_image4" />
+  
+  <TextView
+    android:id="@+id/txt_completed_goals"
+    android:layout_width="342dp"
+    android:layout_height="46dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="97dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|top"
+    android:includeFontPadding="false"
+    android:lineHeight="24.2dp"
+    android:text="Metas realizadas"
+    android:textColor="#FF1B263A"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/img_image5"
+    android:layout_width="44dp"
+    android:layout_height="44dp"
+    android:layout_marginLeft="334dp"
+    android:layout_marginTop="42dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_image5" />
+</FrameLayout>

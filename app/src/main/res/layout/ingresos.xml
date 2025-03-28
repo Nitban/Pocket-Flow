@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="896dp"
+    android:background="@drawable/container_menu_rectangle2">
+
+  <ImageView
+      android:id="@+id/container_rectangle"
+      android:layout_width="414dp"
+      android:layout_height="896dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside" />
+
+  <ImageView
+      android:id="@+id/container_arrow"
+      android:layout_width="24dp"
+      android:layout_height="0dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="21dp"
+      android:layout_marginTop="73dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_arrow" />
+
+  <ImageView
+      android:id="@+id/container_rectangle1"
+      android:layout_width="361dp"
+      android:layout_height="590dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="26dp"
+      android:layout_marginTop="138dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_rectangle1" />
+
+  <TextView
+      android:id="@+id/text_fecha"
+      android:layout_width="wrap_content"
+      android:layout_height="25dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="69dp"
+      android:layout_marginTop="205.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Fecha"
+      android:textColor="#FF1B263A"
+      android:textSize="20dp" />
+
+  <ImageView
+      android:id="@+id/container_rectangle2"
+      android:layout_width="278dp"
+      android:layout_height="51dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="63dp"
+      android:layout_marginTop="249dp"
+      android:background="@drawable/container_rectangle2"
+      android:scaleType="centerInside" />
+
+  <TextView
+      android:id="@+id/text_cantidad"
+      android:layout_width="wrap_content"
+      android:layout_height="25dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="68dp"
+      android:layout_marginTop="332.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Cantidad"
+      android:textColor="#FF1B263A"
+      android:textSize="20dp" />
+
+  <ImageView
+      android:id="@+id/container_rectangle3"
+      android:layout_width="278dp"
+      android:layout_height="51dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="63dp"
+      android:layout_marginTop="373dp"
+      android:background="@drawable/container_rectangle3"
+      android:scaleType="centerInside" />
+
+  <TextView
+      android:id="@+id/text_motivo"
+      android:layout_width="wrap_content"
+      android:layout_height="25dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="69dp"
+      android:layout_marginTop="451.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Motivo"
+      android:textColor="#FF1B263A"
+      android:textSize="20dp" />
+
+  <ImageView
+      android:id="@+id/container_rectangle4"
+      android:layout_width="278dp"
+      android:layout_height="51dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="63dp"
+      android:layout_marginTop="490dp"
+      android:background="@drawable/container_rectangle4"
+      android:scaleType="centerInside" />
+
+  <ImageView
+      android:id="@+id/container_image"
+      android:layout_width="35dp"
+      android:layout_height="35dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="296dp"
+      android:layout_marginTop="501dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_image" />
+
+  <TextView
+      android:id="@+id/text_pago"
+      android:layout_width="wrap_content"
+      android:layout_height="25dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="84dp"
+      android:layout_marginTop="503.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Pago"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+
+  <TextView
+      android:id="@+id/text_date"
+      android:layout_width="wrap_content"
+      android:layout_height="25dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="84dp"
+      android:layout_marginTop="262.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="17/06/2025"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+
+  <TextView
+      android:id="@+id/text_amount"
+      android:layout_width="wrap_content"
+      android:layout_height="25dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="84dp"
+      android:layout_marginTop="388.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="$5,000.00"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+
+  <ImageView
+      android:id="@+id/container_rectangle5"
+      android:layout_width="173dp"
+      android:layout_height="49dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="113dp"
+      android:layout_marginTop="607dp"
+      android:background="@drawable/container_rectangle5"
+      android:scaleType="centerInside" />
+
+  <TextView
+      android:id="@+id/text_registrar"
+      android:layout_width="99dp"
+      android:layout_height="27dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="148dp"
+      android:layout_marginTop="618dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text=" Registrar"
+      android:textColor="#FFFFFFFF"
+      android:textSize="20dp" />
+
+  <ImageView
+      android:id="@+id/container_rectangle6"
+      android:layout_width="414dp"
+      android:layout_height="195dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="819dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_rectangle6" />
+
+  <ImageView
+      android:id="@+id/container_rectangle7"
+      android:layout_width="match_parent"
+      android:layout_height="201dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="819dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_rectangle7" />
+
+  <ImageView
+      android:id="@+id/container_ellipse"
+      android:layout_width="74dp"
+      android:layout_height="71dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="170dp"
+      android:layout_marginTop="808dp"
+      android:background="@drawable/container_ellipse"
+      android:scaleType="centerInside" />
+
+  <ImageView
+      android:id="@+id/container_camera"
+      android:layout_width="42dp"
+      android:layout_height="42dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="186dp"
+      android:layout_marginTop="821dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_camera" />
+
+  <ImageView
+      android:id="@+id/container_graph_bar"
+      android:layout_width="52dp"
+      android:layout_height="52dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="96dp"
+      android:layout_marginTop="817dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_graph_bar" />
+
+  <ImageView
+      android:id="@+id/container_carbon_footprint"
+      android:layout_width="45dp"
+      android:layout_height="45dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="272dp"
+      android:layout_marginTop="821dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_carbon_footprint" />
+
+  <ImageView
+      android:id="@+id/container_line_chart"
+      android:layout_width="49dp"
+      android:layout_height="49dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="344dp"
+      android:layout_marginTop="817dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_line_chart" />
+
+  <TextView
+      android:id="@+id/text_registrar_ingreso"
+      android:layout_width="342dp"
+      android:layout_height="46dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="45dp"
+      android:layout_marginTop="122dp"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="24.2dp"
+      android:text="Registrar Ingreso"
+      android:textColor="#FF1B263A"
+      android:textSize="20dp" />
+
+  <ImageView
+      android:id="@+id/container_winner"
+      android:layout_width="56dp"
+      android:layout_height="56dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="21dp"
+      android:layout_marginTop="819dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_winner" />
+
+  <ImageView
+      android:id="@+id/container_ticket_photoroom"
+      android:layout_width="136dp"
+      android:layout_height="117.88dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="84dp"
+      android:layout_marginTop="695dp"
+      android:scaleType="centerInside" />
+</FrameLayout>
