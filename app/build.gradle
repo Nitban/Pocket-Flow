@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services' // 🔥 Plugin de Firebase
 }
 
 android {
@@ -38,13 +39,12 @@ android {
 
     buildTypes {
         release {
-            // Caution! In production, you need to generate your own keystore file.
-            // see https://reactnative.dev/docs/signed-apk-android.
             signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -67,6 +67,14 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.10.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // 🔥 Firebase BOM (Para manejar versiones automáticamente)
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+
+    // 🔥 Dependencias de Firebase (puedes agregar más según necesites)
+    implementation 'com.google.firebase:firebase-auth'      // Autenticación
+    implementation 'com.google.firebase:firebase-database'  // Realtime Database
+    implementation 'com.google.firebase:firebase-firestore' // Firestore
+    implementation 'com.google.firebase:firebase-storage'   // Storage
 }
