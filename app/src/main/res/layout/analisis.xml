@@ -585,7 +585,7 @@
     android:layout_marginLeft="161dp"
     android:layout_marginTop="802dp"
     android:layout_gravity="top|left"
-    android:background="@drawable/drawable_shape_11"
+    android:background="@drawable/drawable_shape_9"
     android:scaleType="centerInside" />
   
   <ImageView
@@ -613,7 +613,7 @@
     android:layout_marginTop="817dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_28" />
+    android:src="@drawable/drawable_image_27" />
   
   <ImageView
     android:layout_width="60dp"
@@ -622,7 +622,7 @@
     android:layout_marginTop="817dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_29" />
+    android:src="@drawable/drawable_image_27" />
   
   <ImageView
     android:layout_width="60dp"
@@ -697,7 +697,7 @@
     android:layout_marginTop="356dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_34" />
+    android:src="@drawable/drawable_image_33" />
   
   <ImageView
     android:layout_width="64dp"
@@ -706,7 +706,7 @@
     android:layout_marginTop="699dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_35" />
+    android:src="@drawable/drawable_image_33" />
   
   <ImageView
     android:layout_width="64dp"
@@ -790,7 +790,7 @@
     android:layout_marginLeft="74dp"
     android:layout_marginTop="322dp"
     android:layout_gravity="top|left"
-    android:background="@drawable/drawable_shape_12"
+    android:background="@drawable/drawable_shape_9"
     android:scaleType="centerInside" />
   
   <ImageView
@@ -827,7 +827,7 @@
     android:layout_marginTop="566dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_40" />
+    android:src="@drawable/drawable_image_39" />
   
   <TextView
     android:layout_width="wrap_content"
@@ -903,7 +903,7 @@
     android:layout_marginTop="802dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_41" />
+    android:src="@drawable/drawable_image_39" />
   
   <ImageView
     android:layout_width="90dp"
@@ -962,7 +962,7 @@
     android:layout_marginTop="171dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_46" />
+    android:src="@drawable/drawable_image_39" />
   
   <ImageView
     android:layout_width="412dp"
@@ -970,7 +970,7 @@
     android:layout_marginTop="171dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_47" />
+    android:src="@drawable/drawable_image_39" />
   
   <TextView
     android:layout_width="wrap_content"
@@ -993,7 +993,7 @@
     android:layout_marginLeft="74dp"
     android:layout_marginTop="322dp"
     android:layout_gravity="top|left"
-    android:background="@drawable/drawable_shape_17"
+    android:background="@drawable/drawable_image_1"
     android:scaleType="centerInside" />
   
   <ImageView
@@ -1002,7 +1002,7 @@
     android:layout_marginLeft="74dp"
     android:layout_marginTop="435dp"
     android:layout_gravity="top|left"
-    android:background="@drawable/drawable_shape_18"
+    android:background="@drawable/drawable_image_1"
     android:scaleType="centerInside" />
   
   <ImageView
@@ -1133,7 +1133,7 @@
     android:layout_marginTop="817dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_52" />
+    android:src="@drawable/drawable_image_1" />
   
   <ImageView
     android:layout_width="60dp"
@@ -1142,7 +1142,7 @@
     android:layout_marginTop="817dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_53" />
+    android:src="@drawable/drawable_image_1" />
   
   <ImageView
     android:layout_width="60dp"
@@ -1199,7 +1199,7 @@
     android:layout_marginTop="812dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_58" />
+    android:src="@drawable/drawable_image_1" />
   
   <ImageView
     android:layout_width="60dp"
@@ -1208,7 +1208,7 @@
     android:layout_marginTop="817dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_59" />
+    android:src="@drawable/drawable_image_1" />
   
   <ImageView
     android:layout_width="60dp"
@@ -1283,7 +1283,7 @@
     android:layout_marginTop="356dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_64" />
+    android:src="@drawable/drawable_image_1" />
   
   <ImageView
     android:layout_width="64dp"
@@ -1292,7 +1292,7 @@
     android:layout_marginTop="356dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_65" />
+    android:src="@drawable/drawable_image_1" />
   
   <ImageView
     android:layout_width="64dp"
@@ -1376,7 +1376,7 @@
     android:layout_marginLeft="74dp"
     android:layout_marginTop="322dp"
     android:layout_gravity="top|left"
-    android:background="@drawable/drawable_shape_23"
+    android:background="@drawable/drawable_image_1"
     android:scaleType="centerInside" />
   
   <ImageView
@@ -1385,7 +1385,7 @@
     android:layout_marginLeft="74dp"
     android:layout_marginTop="435dp"
     android:layout_gravity="top|left"
-    android:background="@drawable/drawable_shape_24"
+    android:background="@drawable/drawable_image_1"
     android:scaleType="centerInside" />
   
   <ImageView
@@ -1413,7 +1413,7 @@
     android:layout_marginTop="566dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_70" />
+    android:src="@drawable/drawable_image_1" />
   
   <TextView
     android:layout_width="wrap_content"
@@ -1489,7 +1489,7 @@
     android:layout_marginTop="802dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_71" />
+    android:src="@drawable/drawable_image_1" />
   
   <ImageView
     android:layout_width="90dp"
@@ -1548,7 +1548,7 @@
     android:layout_marginTop="171dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_76" />
+    android:src="@drawable/drawable_image_1" />
   
   <ImageView
     android:layout_width="412dp"
@@ -1556,7 +1556,7 @@
     android:layout_marginTop="171dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_77" />
+    android:src="@drawable/drawable_image_1" />
   
   <TextView
     android:layout_width="wrap_content"
@@ -1588,7 +1588,7 @@
     android:layout_marginLeft="74dp"
     android:layout_marginTop="435dp"
     android:layout_gravity="top|left"
-    android:background="@drawable/drawable_shape_29"
+    android:background="@drawable/drawable_image_1"
     android:scaleType="centerInside" />
   
   <ImageView
@@ -1597,7 +1597,7 @@
     android:layout_marginLeft="74dp"
     android:layout_marginTop="548dp"
     android:layout_gravity="top|left"
-    android:background="@drawable/drawable_shape_30"
+    android:background="@drawable/drawable_image_1"
     android:scaleType="centerInside" />
   
   <ImageView
@@ -1704,7 +1704,7 @@
     android:layout_marginTop="817dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_82" />
+    android:src="@drawable/drawable_image_1" />
   
   <ImageView
     android:layout_width="60dp"
@@ -1713,7 +1713,7 @@
     android:layout_marginTop="817dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/drawable_image_83" />
+    android:src="@drawable/drawable_image_1" />
   
   <ImageView
     android:layout_width="60dp"
@@ -1730,7 +1730,7 @@
       android:layout_gravity="top|left"
       android:scaleType="centerInside"
       tools:background="#8AB4CC" />
-  
+
   <ImageView
     android:layout_width="341dp"
     android:layout_height="309dp"

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <color name="background_color">#1B263A</color>
+    <color name="input_background">#E0E0E0</color>
+    <color name="button_background">#1B263A</color>
+    <color name="link_color">#3F51B5</color>
 </resources>
