@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <FrameLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,7 +6,7 @@
   android:layout_width="match_parent"
   android:layout_height="896dp"
   android:background="@drawable/drawable_shape">
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle"
     android:layout_width="431dp"
@@ -16,14 +15,14 @@
     android:layout_gravity="top|left"
     android:background="@drawable/container_menu_rectangle"
     android:scaleType="centerInside" />
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle1"
     android:layout_width="414dp"
     android:layout_height="896dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside" />
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle2"
     android:layout_width="414dp"
@@ -31,14 +30,14 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_rectangle2" />
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle3"
     android:layout_width="414dp"
     android:layout_height="896dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside" />
-  
+
   <TextView
     android:id="@+id/text_menu_log_in"
     android:layout_width="53dp"
@@ -53,7 +52,7 @@
     android:text="Log in"
     android:textColor="#FFFFFFFF"
     android:textSize="16dp" />
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle4"
     android:layout_width="414dp"
@@ -62,7 +61,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_rectangle4" />
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle5"
     android:layout_width="180dp"
@@ -72,7 +71,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_rectangle5" />
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle6"
     android:layout_width="180dp"
@@ -82,7 +81,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_rectangle6" />
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle7"
     android:layout_width="180dp"
@@ -92,7 +91,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_rectangle7" />
-  
+
   <ImageView
     android:id="@+id/container_menu_camara_fotografica"
     android:layout_width="71dp"
@@ -102,7 +101,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_camara_fotografica" />
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle8"
     android:layout_width="414dp"
@@ -130,7 +129,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_rectangle10" />
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle11"
     android:layout_width="158dp"
@@ -140,7 +139,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_rectangle11" />
-  
+
   <ImageView
     android:id="@+id/container_menu_rectangle12"
     android:layout_width="164dp"
@@ -150,7 +149,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_rectangle12" />
-  
+
   <TextView
     android:id="@+id/text_menu_ingresos"
     android:layout_width="wrap_content"
@@ -166,7 +165,7 @@
     android:text="INGRESOS"
     android:textColor="#FF000000"
     android:textSize="14dp" />
-  
+
   <TextView
     android:id="@+id/text_menu_hola_ana"
     android:layout_width="wrap_content"
@@ -182,7 +181,7 @@
     android:text="Hola, Ana"
     android:textColor="#FF1B263A"
     android:textSize="32dp" />
-  
+
   <ImageView
     android:id="@+id/container_menu_image"
     android:layout_width="71dp"
@@ -192,7 +191,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_image" />
-  
+
   <TextView
     android:id="@+id/text_menu_pocketflow"
     android:layout_width="139dp"
@@ -206,7 +205,7 @@
     android:text="PocketFlow"
     android:textColor="#FFFFFFFF"
     android:textSize="20dp" />
-  
+
   <ImageView
     android:id="@+id/container_menu_image1"
     android:layout_width="14dp"
@@ -216,7 +215,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_image1" />
-  
+
   <TextView
     android:id="@+id/text_menu_analisis"
     android:layout_width="wrap_content"
@@ -232,7 +231,7 @@
     android:text="Análisis"
     android:textColor="#FF1B263A"
     android:textSize="20dp" />
-  
+
   <TextView
     android:id="@+id/text_menu_predicciones"
     android:layout_width="134dp"
@@ -248,7 +247,7 @@
     android:text="Predicciones"
     android:textColor="#FF1B263A"
     android:textSize="20dp" />
-  
+
   <TextView
     android:id="@+id/text_menu_escanear"
     android:layout_width="98dp"
@@ -264,7 +263,7 @@
     android:text="Escanear"
     android:textColor="#FF1B263A"
     android:textSize="20dp" />
-  
+
   <TextView
     android:id="@+id/text_menu_mi_huella_co2"
     android:layout_width="144dp"
@@ -280,7 +279,7 @@
     android:text="Mi huella CO2"
     android:textColor="#FF1B263A"
     android:textSize="20dp" />
-  
+
   <ImageView
     android:id="@+id/container_menu_huella_de_carbono"
     android:layout_width="112dp"
@@ -290,7 +289,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_huella_de_carbono" />
-  
+
   <ImageView
     android:id="@+id/container_menu_ellipse"
     android:layout_width="64dp"
@@ -300,7 +299,7 @@
     android:layout_gravity="top|left"
     android:background="@drawable/container_menu_ellipse"
     android:scaleType="centerInside" />
-  
+
   <ImageView
     android:id="@+id/container_menu_ganador"
     android:layout_width="56dp"
@@ -310,7 +309,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_ganador" />
-  
+
   <ImageView
     android:id="@+id/container_menu_pobre"
     android:layout_width="59dp"
@@ -320,7 +319,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_pobre" />
-  
+
   <TextView
     android:id="@+id/text_menu_gastos"
     android:layout_width="wrap_content"
@@ -336,7 +335,7 @@
     android:text="GASTOS"
     android:textColor="#FF000000"
     android:textSize="14dp" />
-  
+
   <ImageView
     android:id="@+id/container_menu_trofeo"
     android:layout_width="38dp"
@@ -346,7 +345,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_trofeo" />
-  
+
   <ImageView
     android:id="@+id/container_menu_grafico_de_torta"
     android:layout_width="109dp"
@@ -356,7 +355,7 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_grafico_de_torta" />
-  
+
   <ImageView
     android:id="@+id/container_menu_grafico"
     android:layout_width="156dp"

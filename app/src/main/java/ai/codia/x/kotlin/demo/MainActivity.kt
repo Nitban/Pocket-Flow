@@ -12,5 +12,8 @@ class MainActivity : BaseMainActivity() {
 
         Toast.makeText(this, "Welcome to the Main Activity!", Toast.LENGTH_SHORT).show()
         // Aquí puedes agregar la lógica de la pantalla principal
+
+        setContentView(R.layout.menu)
+
     }
 }
