@@ -1,17 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:padding="24dp"
-    android:gravity="center"
-    android:background="#FFFFFF"
+    android:background="@drawable/bg_gradient"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
-    <TextView
-        android:text="Pantalla de Registro"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="#1B263A"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <!-- Contenedor blanco -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="55dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_card_rounded"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text="Crear Cuenta"
+            android:textColor="#1C2D44"
+            android:textSize="43sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="4dp"
+            android:text="NOMBRE"
+            android:textColor="#1C2D44"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="239dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_input"
+            android:hint="Ej: Ana Marmolejo"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_pressed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="4dp"
+            android:text="CORREO"
+            android:textColor="#1C2D44"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="239dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_input"
+            android:hint="anamarmolejo@hotmail.com"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_pressed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="4dp"
+            android:text="CONTRASEÑA"
+            android:textColor="#1C2D44"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="239dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_input"
+            android:hint="******"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textColorHint="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="4dp"
+            android:text="CONFIRMAR CONTRASEÑA"
+            android:textColor="#1C2D44"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etConfPassword"
+            android:layout_width="238dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_input"
+            android:hint="******"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textColorHint="#ffffff" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="4dp"
+            android:text="FECHA DE NACIMIENTO"
+            android:textColor="#1C2D44"
+            android:textStyle="bold" />
+
+
+
+        <EditText
+            android:id="@+id/etBirthdate"
+            android:layout_width="239dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_input"
+            android:hint="02 de Marzo"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_pressed" />
+
+        <!-- Espaciador para empujar hacia abajo/>-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="210dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#1B263A"
+            android:text="Registrar"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
 </LinearLayout>
+

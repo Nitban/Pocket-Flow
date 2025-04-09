@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
-class  LoginActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -22,6 +22,11 @@ class  LoginActivity : AppCompatActivity() {
 
             if (username.isNotEmpty() && password.isNotEmpty()) {
                 Toast.makeText(this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show()
+
+                // Aquí se redirige al menú (MainActivity)
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+                finish()
             } else {
                 Toast.makeText(this, "Completa los campos", Toast.LENGTH_SHORT).show()
             }

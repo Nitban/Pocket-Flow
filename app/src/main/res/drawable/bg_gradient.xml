@@ -8,5 +8,6 @@
                 android:endColor="#1B263A"
                 android:type="linear"/>
         </shape>
+
     </item>
 </layer-list>
