@@ -365,4 +365,5 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/container_menu_grafico" />
+
 </FrameLayout>

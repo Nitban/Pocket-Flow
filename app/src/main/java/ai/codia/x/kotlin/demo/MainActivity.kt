@@ -14,6 +14,5 @@ class MainActivity : BaseMainActivity() {
         // Aquí puedes agregar la lógica de la pantalla principal
 
         setContentView(R.layout.menu)
-
     }
 }
