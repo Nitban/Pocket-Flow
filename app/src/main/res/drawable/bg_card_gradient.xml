@@ -3,5 +3,7 @@
     android:height="200dp"
     android:viewportWidth="360"
     android:viewportHeight="200">
-
+    <path
+        android:fillColor="@android:color/holo_blue_light"
+        android:pathData="M0,0h360v200h-360z" />
 </vector>

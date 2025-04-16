@@ -10,7 +10,7 @@
         android:theme="@style/Theme.CodiaDemo">
 
         <activity
-            android:name="com.example.myapp.LoginActivity"
+            android:name="com.example.myapp.LoginScreen"
             android:exported="true"> <!-- exported=true es necesario si tiene MAIN -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -19,7 +19,7 @@
         </activity>
 
         <activity android:name="com.example.myapp.MainActivity" />
-        <activity android:name="com.example.myapp.RegisterActivity" />
+        <activity android:name="com.example.myapp.RegisterScreen" />
 
     </application>
 </manifest>
